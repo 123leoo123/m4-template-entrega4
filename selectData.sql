@@ -24,4 +24,4 @@ SELECT books. "id" AS "bookId",
        authors."bio" AS "authorBio"
 FROM books
 JOIN authors ON books."authorId" = authors."id"
-WHERE books."name" = 'Harry Potter e o Prisioneiro de Azkaban';
+WHERE books."name" = 'Harry Potter';
